@@ -1,0 +1,14 @@
+# Public contact details from company contact pages.
+# Olostep calls: 3 Map + 3 extractions (about 33 credits).
+name: company-contact-pages
+sites:
+  - https://www.mozilla.org
+  - https://www.wikimedia.org
+  - https://www.eff.org
+find_page: contact
+fields:
+  organization: organization name
+  email: general contact email address shown on the page
+  phone: main phone number shown on the page
+  address: postal address of the main office
+  contact_form: is there a contact form on the page (yes/no)

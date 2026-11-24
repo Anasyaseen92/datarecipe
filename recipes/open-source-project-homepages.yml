@@ -1,0 +1,10 @@
+# Homepages of open-source projects as markdown: a small AI-ready text dataset.
+# Text mode, so no fields. Olostep calls: 1 Batch (5 pages, about 5 credits).
+name: open-source-project-homepages
+mode: text
+sites:
+  - https://nodejs.org
+  - https://www.python.org
+  - https://www.rust-lang.org
+  - https://kubernetes.io
+  - https://react.dev

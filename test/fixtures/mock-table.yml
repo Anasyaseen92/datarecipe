@@ -1,0 +1,12 @@
+# Test fixture: table mode against the fake Olostep in src/lib/mock.ts (npm run smoke).
+name: mock-table
+sites:
+  - https://acme-analytics.example
+  - https://nimbus-mail.example
+  - https://pixelforge.example
+find_page: pricing
+fields:
+  company: company name
+  free_plan: is there a free plan (yes/no)
+  price: cheapest paid plan price per month
+  annual_discount: discount for paying yearly, if any

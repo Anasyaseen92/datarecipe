@@ -1,0 +1,14 @@
+# What companies say on their careers pages.
+# Olostep calls: 3 Map + 3 extractions (about 33 credits).
+name: careers-pages
+sites:
+  - https://about.gitlab.com
+  - https://www.mozilla.org
+  - https://supabase.com
+find_page: careers
+fields:
+  company: company name
+  open_roles: number of open roles listed, or "not listed"
+  remote: does the company hire remotely (yes/no/partly)
+  locations: office locations or regions mentioned
+  benefits: up to three benefits mentioned, comma-separated

@@ -1,0 +1,10 @@
+# Landing pages of developer documentation sites, as markdown.
+# Text mode, so no fields. Olostep calls: 1 Batch (5 pages, about 5 credits).
+name: devtools-docs-homepages
+mode: text
+sites:
+  - https://docs.olostep.com
+  - https://nextjs.org/docs
+  - https://docs.docker.com
+  - https://vitest.dev/guide
+  - https://www.typescriptlang.org/docs

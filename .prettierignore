@@ -1,0 +1,7 @@
+dist
+output
+examples
+node_modules
+package-lock.json
+CHANGELOG.md
+*.md

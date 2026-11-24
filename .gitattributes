@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# CSV output uses CRLF on purpose (Excel-friendly); keep it byte-for-byte.
+*.csv -text

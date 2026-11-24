@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+output/
+*.log
+.DS_Store
+# created by `npx datarecipe init`; your own recipe, not part of the repo
+recipes/my-first-recipe.yml

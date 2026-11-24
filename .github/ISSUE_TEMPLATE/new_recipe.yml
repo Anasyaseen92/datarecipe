@@ -1,0 +1,43 @@
+name: New recipe
+description: Propose a recipe for the recipes/ folder.
+labels: [recipe, good first issue]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Recipe name
+      placeholder: university-tuition
+    validations:
+      required: true
+  - type: textarea
+    id: dataset
+    attributes:
+      label: What dataset does it build?
+      description: Who would use it and for what.
+    validations:
+      required: true
+  - type: textarea
+    id: draft
+    attributes:
+      label: Draft recipe
+      description: 3 to 5 real, public sites. See recipes/README.md.
+      render: yaml
+      placeholder: |
+        name: university-tuition
+        sites:
+          - https://www.example.edu
+        find_page: tuition
+        fields:
+          university: university name
+          tuition: yearly tuition for undergraduates, with currency
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: The sites are public and their terms allow automated access
+          required: true
+        - label: The recipe does not collect personal data about private individuals
+          required: true

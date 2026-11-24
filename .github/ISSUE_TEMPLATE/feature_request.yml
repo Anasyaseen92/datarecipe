@@ -1,0 +1,29 @@
+name: Feature request
+description: An idea to make datarecipe more useful.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The dataset you want to build and where datarecipe gets in the way.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: A flag, recipe key or output format. Show how the recipe or command would look.
+    validations:
+      required: true
+  - type: textarea
+    id: olostep
+    attributes:
+      label: Which Olostep feature would it use?
+      description: "All web access goes through Olostep (Map, Scrape, Batch, Search, Parsers, Monitors). See https://docs.olostep.com"
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Contributing
+      options:
+        - label: I would like to build this myself

@@ -1,0 +1,7 @@
+# Test fixture: text mode against the fake Olostep in src/lib/mock.ts (npm run smoke).
+name: mock-text
+mode: text
+sites:
+  - https://acme-analytics.example
+  - https://nimbus-mail.example
+  - https://pixelforge.example

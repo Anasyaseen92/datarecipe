@@ -1,0 +1,36 @@
+name: Bug report
+description: Something does not work as the README says.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: The command you ran and what you saw. Paste the stderr output.
+      placeholder: |
+        npx datarecipe recipes/saas-pricing.yml
+        Error: ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: recipe
+    attributes:
+      label: Recipe (if relevant)
+      description: The recipe file, without anything private.
+      render: yaml
+  - type: input
+    id: env
+    attributes:
+      label: datarecipe version, Node version, OS
+      placeholder: "datarecipe 0.1.0, Node 20.11, macOS 14"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Tip: run again with `DEBUG=datarecipe` to get a stack trace. Never paste your OLOSTEP_API_KEY."
