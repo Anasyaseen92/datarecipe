@@ -20,7 +20,7 @@ body:
     id: draft
     attributes:
       label: Draft recipe
-      description: 3 to 5 real, public sites. See recipes/README.md.
+      description: 3 to 5 real, public sites. See "Add a recipe" in CONTRIBUTING.md.
       render: yaml
       placeholder: |
         name: university-tuition

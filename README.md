@@ -158,7 +158,7 @@ Starter recipes are in [recipes/](recipes/): SaaS pricing, company contact pages
 careers pages, open-source project homepages (text mode), and developer docs
 homepages (text mode).
 
-Made a useful one? [Add a recipe in 5 minutes](recipes/README.md#add-a-recipe-in-5-minutes)
+Made a useful one? [Add a recipe in 5 minutes](CONTRIBUTING.md#add-a-recipe)
 and open a pull request, so the next person can start from it.
 
 ## Honest limits

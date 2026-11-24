@@ -20,9 +20,9 @@ Add three small recipes so people can start from a dataset close to theirs:
 
 - Each recipe has 3 to 5 real, public sites and a top comment with what it collects and its Olostep calls.
 - Each recipe loads without errors (run it for real with a small site list).
-- `recipes/README.md` lists the new recipes in its table.
+- The README's Recipes section mentions the new recipes.
 
-**Files to touch:** `recipes/*.yml`, `recipes/README.md`
+**Files to touch:** `recipes/*.yml`, `README.md`
 
 ## 2. Parquet export
 

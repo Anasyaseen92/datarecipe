@@ -85,9 +85,23 @@ test/fixtures/          recipes for the fake Olostep (tests, npm run smoke)
 
 ## Add a recipe
 
-See [recipes/README.md](recipes/README.md): copy a recipe, pick 3 to 5 public
-sites, describe each field in plain English, run it, check the output, open a PR
-with the "New recipe" template.
+A recipe is a small YAML file in `recipes/`. Adding one takes about 5 minutes:
+
+1. **Copy a recipe** that is close to what you want:
+   `cp recipes/careers-pages.yml recipes/your-recipe.yml` (or run `npx datarecipe init`).
+2. **Pick 3 to 5 real sites.** Small recipes are easy to review and cheap to run.
+3. **Set `find_page`** to the word a site would use for the page (`pricing`,
+   `contact`, `careers`), or delete it to use the homepage.
+4. **Describe each field in plain English**, with the exact format you want:
+   "monthly price of the cheapest paid plan as a number only, e.g. 25" beats "price".
+   Use snake_case names; they become CSV columns.
+5. **Try it**: `npx datarecipe recipes/your-recipe.yml`, then open the CSV and the
+   report. If a field is often empty, sharpen its description.
+6. **Add a comment at the top** with what it collects and roughly how many
+   Olostep calls it makes, then open a pull request using the "New recipe" template.
+
+Good recipes use public pages, respect each site's terms, and don't collect
+personal data about private individuals.
 
 ## Add an output format
 
