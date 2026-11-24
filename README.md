@@ -199,7 +199,7 @@ and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-[MIT](LICENSE) © 2026 Shaheer Amjad
+[MIT](LICENSE) © 2026 Muhammad Anas Yasin
 
 ---
 
