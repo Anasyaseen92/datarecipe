@@ -34,11 +34,11 @@ Needs [Node.js 18+](https://nodejs.org) and an Olostep API key.
    cd datarecipe
    npm install
    ```
-3. **Add the key to `.env`:**
+3. **Add the key:** create a file named `.env` in the project folder with this line:
    ```bash
-   cp .env.example .env        # Windows: copy .env.example .env
+   OLOSTEP_API_KEY=your-key
    ```
-   then edit `.env` so it reads `OLOSTEP_API_KEY=your-key`.
+   `.env` is in `.gitignore`, so your key is never committed.
 4. **Create a recipe:**
    ```bash
    npx datarecipe init

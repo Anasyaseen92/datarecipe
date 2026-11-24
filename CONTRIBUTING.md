@@ -24,7 +24,7 @@ Run your working copy without building:
 npm start -- recipes/my-first-recipe.yml
 ```
 
-This needs `OLOSTEP_API_KEY` in `.env` (copy `.env.example`; get a key at
+This needs a `.env` file with `OLOSTEP_API_KEY=your-key` (get a key at
 https://www.olostep.com/dashboard/api-keys).
 
 ## Tests
